@@ -9,6 +9,9 @@ app_color = "grey"
 app_email = "tmsblzs+github@gmail.com"
 app_license = "MIT"
 
+# Fixtures
+fixtures = ["Custom Field"]
+
 # Includes in <head>
 # ------------------
 
