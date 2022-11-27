@@ -10,17 +10,7 @@ app_email = "tmsblzs+github@gmail.com"
 app_license = "MIT"
 
 # Fixtures
-fixtures = [{
-                "dt": "DocType", "filters": [
-                    [
-                        "name", "in", [
-                            "Sales Invoice",
-                            "Customer",
-                            "Address"
-                        ]
-                    ]
-                ]
-            }]
+fixtures = ["Custom Fields"]
 
 # Includes in <head>
 # ------------------
