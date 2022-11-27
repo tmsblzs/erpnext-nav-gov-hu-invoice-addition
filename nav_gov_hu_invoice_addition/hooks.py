@@ -60,7 +60,7 @@ fixtures = ["Custom Fields"]
 # ------------
 
 # before_install = "nav_gov_hu_invoice_addition.install.before_install"
-# after_install = "nav_gov_hu_invoice_addition.install.after_install"
+after_install = "nav_gov_hu_invoice_addition.install.after_install"
 
 # Uninstallation
 # ------------

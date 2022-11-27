@@ -1,7 +1,7 @@
 import frappe
 
 
-def before_install():
+def after_install():
     insert_doc_county_code("Baranya megye", "02", "22")
     insert_doc_county_code("Bács-Kiskun megye", "03", "23")
     insert_doc_county_code("Békés megye", "04", "24")
