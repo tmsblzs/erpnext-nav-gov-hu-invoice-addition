@@ -10,7 +10,7 @@ app_email = "tmsblzs+github@gmail.com"
 app_license = "MIT"
 
 # Fixtures
-fixtures = ["Custom Field"]
+fixtures = ["Custom Fields"]
 
 # Includes in <head>
 # ------------------
@@ -60,7 +60,7 @@ fixtures = ["Custom Field"]
 # ------------
 
 # before_install = "nav_gov_hu_invoice_addition.install.before_install"
-# after_install = "nav_gov_hu_invoice_addition.install.after_install"
+after_install = "nav_gov_hu_invoice_addition.install.after_install"
 
 # Uninstallation
 # ------------
@@ -155,24 +155,24 @@ fixtures = ["Custom Field"]
 # --------------------
 
 user_data_fields = [
-	{
-		"doctype": "{doctype_1}",
-		"filter_by": "{filter_by}",
-		"redact_fields": ["{field_1}", "{field_2}"],
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_2}",
-		"filter_by": "{filter_by}",
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_3}",
-		"strict": False,
-	},
-	{
-		"doctype": "{doctype_4}"
-	}
+    {
+        "doctype": "{doctype_1}",
+        "filter_by": "{filter_by}",
+        "redact_fields": ["{field_1}", "{field_2}"],
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_2}",
+        "filter_by": "{filter_by}",
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_3}",
+        "strict": False,
+    },
+    {
+        "doctype": "{doctype_4}"
+    }
 ]
 
 # Authentication and authorization
